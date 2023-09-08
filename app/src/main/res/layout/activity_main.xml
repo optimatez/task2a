@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:rowCount="4"
+    android:padding="16dp"
+    android:layout_gravity="center">
+
+    <!-- Image 1 -->
+    <ImageView
+        android:id="@+id/lunapark"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/lunapark"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_columnSpan="2"
+        android:layout_rowSpan="2"
+        android:scaleType="centerCrop"
+        android:layout_margin="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lunaParkName"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lunaParkRating"
+        android:layout_gravity="center"/>
+
+    <!-- Image 2 -->
+    <ImageView
+        android:id="@+id/operahouse"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/operahouse"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_columnSpan="2"
+        android:layout_rowSpan="2"
+        android:scaleType="centerCrop"
+        android:layout_margin="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/operaHouseName"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/operaHouseRating"
+        android:layout_gravity="center"/>
+
+    <!-- Image 3 -->
+    <ImageView
+        android:id="@+id/mcg"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/mcg"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_columnSpan="2"
+        android:layout_rowSpan="2"
+        android:scaleType="centerCrop"
+        android:layout_margin="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mcgName"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mcgRating"
+        android:layout_gravity="center"/>
+
+    <!-- Image 4 -->
+    <ImageView
+        android:id="@+id/harbourbridge"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/harbourbridge"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_columnSpan="2"
+        android:layout_rowSpan="2"
+        android:scaleType="centerCrop"
+        android:layout_margin="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/harbourBridgeName"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/harbourBridgeRating"
+        android:layout_gravity="center"/>
+</GridLayout>

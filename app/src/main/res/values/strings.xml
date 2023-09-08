@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">task2a</string>
+    <string name="lunaParkName">Luna Park</string>
+    <string name="operaHouseName">Sydney Opera House</string>
+    <string name="mcgName">MCG</string>
+    <string name="harbourBridgeName">Sydney Harbour Bridge</string>
+    <string name="lunaParkRating">5</string>
+    <string name="operaHouseRating">3</string>
+    <string name="mcgRating">2</string>
+    <string name="harbourBridgeRating">4</string>
+</resources>
